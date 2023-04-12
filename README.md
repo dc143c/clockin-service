@@ -34,6 +34,11 @@ $ yarn install
 
 ## Running the app
 
+You should first run set up the docker environment for database:
+
+> copy .env.example
+> yarn docker
+
 ```bash
 # development
 $ yarn run start
